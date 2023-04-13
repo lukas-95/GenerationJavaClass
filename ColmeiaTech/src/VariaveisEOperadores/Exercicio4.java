@@ -20,7 +20,7 @@ public class Exercicio4 {
         n4 = leia.nextFloat();
 
         dif = ((n1 * n2) - (n3 * n4));
-        System.out.printf("\n Calculo: %.1f ", dif);
+        System.out.printf("\n Diferença: %.1f ", dif);
 
     }
 }
