@@ -55,7 +55,7 @@ public class Client {
         this.socialRank = socialRank;
     }
 
-    public void infoPrint(){
+    public void getInfo(){
         System.out.printf("\nO %s tem %d anos, é da filial %d, pertence a classe %C e ele é fiel ? %B", name,age,branch,socialRank,faithful );
 
     }

@@ -5,8 +5,8 @@ public class ClientTest {
         Client client1 = new Client((byte) 27,2,"Lucas Reck", true, 'b');
         Client client2 = new Client((byte) 35,1,"Reck Lucas", false, 'a');
 
-        client1.infoPrint();
-        client2.infoPrint();
+        client1.getInfo();
+        client2.getInfo();
 
     }
 
