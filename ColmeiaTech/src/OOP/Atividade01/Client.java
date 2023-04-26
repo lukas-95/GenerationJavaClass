@@ -3,12 +3,12 @@ package OOP.Atividade01;
 public class Client {
 
     private byte age;
-    private int branch;
+    private String branch;
     private String name;
     private boolean faithful;
     private char socialRank;
 
-    public Client(byte age, int branch, String name, boolean faithful, char socialRank) {
+    public Client(byte age, String branch, String name, boolean faithful, char socialRank) {
         this.age = age;
         this.branch = branch;
         this.name = name;
@@ -23,11 +23,11 @@ public class Client {
         this.age = age;
     }
 
-    public int getBranch() {
+    public String getBranch() {
         return branch;
     }
 
-    public void setBranch(int branch) {
+    public void setBranch(String branch) {
         this.branch = branch;
     }
 
@@ -56,7 +56,7 @@ public class Client {
     }
 
     public void getInfo(){
-        System.out.printf("\nO %s tem %d anos, é da filial %d, pertence a classe %C e ele é fiel ? %B", name,age,branch,socialRank,faithful );
+        System.out.printf("\n\nO %s tem %d anos, é da filial %s, pertence a classe %C e ele é fiel ? %B", name,age,branch,socialRank,faithful );
 
     }
 
